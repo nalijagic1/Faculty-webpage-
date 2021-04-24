@@ -1,0 +1,71 @@
+#forma{
+    color:white;
+}
+form{background-color: rgb(0, 0, 204,0.4);
+    width: 450px; 
+    height: auto;
+    padding:10px;
+    margin-left:450px;
+    border-radius: 10px;
+    border: 2px solid white;
+    }
+body{background-image: url("development-banner.jpg");
+    color: white;}
+#baner{display: inline-flex;
+    align-content: center; 
+    margin-left: 36%;
+    color: white;
+    margin-top:8px;
+    } 
+#baner h1{
+    margin-top:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    font-weight:bold ;
+}
+#RS{margin-left:15px;}
+#meni{margin-left: 20%;
+        font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;}
+#meni a{color:red;}
+#meni ul{list-style: none;}
+#meni ul li{display: inline;
+    padding-left: 50px;}
+#footer{clear: both; 
+    font-style:italic; 
+    margin-left: 29%;
+color:white;
+font-family: 'Times New Roman', Times, serif;
+}
+#footer a{color:red;}
+input[type=text]{
+    margin-top: 10px;
+   margin-left: 30px;
+   color: grey;
+}
+input[type=email]{
+    margin-left: 30px;
+    color: grey;
+ }
+#Predmet{
+    margin-left:30px;
+}
+select{width:100px;
+         
+        color: grey;}
+#text {width: 200px;
+    height: 35px;
+    resize: none;
+    margin-left: 28px;
+    color: grey;
+}
+input[type=file]{
+    margin-left: 25px;
+ }
+ input[type=submit]{
+    width: 100%;
+    background-color: white;
+    color:black;
+ }
+ 
+a{color: red;}

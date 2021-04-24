@@ -1,0 +1,48 @@
+body{background-image: url("development-banner.jpg");
+    color: white;}
+#baner{display: inline-flex;
+    align-content: center; 
+    margin-left: 35%;} 
+#RS{margin-left:15px;}
+#meni{margin-left: 20%;}
+#meni ul{list-style: none;}
+#meni ul li{display: inline;
+    padding-left: 50px;}
+#footer{clear: both; 
+    font-style:italic; 
+    font-size: medium;
+     margin-left: 29%;}
+a{color: red;}
+table{border-collapse: collapse;}
+#tabele table{width: 40%;
+    float: left;
+     border-color: black; 
+     border-width: 2px;
+     background-color:rgb(0,0,204,0.4); }
+#tabele{display: inline;}
+#tabela1 th{border-style: solid;}
+#tabela1 td{border-style: dashed;}
+.trazi{
+    background-image: url("search-icon-png-1.png");
+    background-size:30px;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius:5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+#tabela2 table{width:60%;
+    float:right;}
+#tabela2 td{font-size: smaller;
+    text-align: center;}
+td.predavanje{background-color:rgb(225,204,153); 
+    color:orange}
+td.lab{background:lightgreen;
+    color: green;}
+td.tutor{background-color: lightskyblue;
+    color: blue;}
+td.both{background-color: lightgray;
+    color: black;}
+th{background-color:rgb(160, 160, 160,0.6);}
+
+

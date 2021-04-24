@@ -1,0 +1,25 @@
+body{background-image: url("development-banner.jpg");
+    color: white;}
+#baner{display: inline-flex;
+    align-content: center; 
+    margin-left: 35%;} 
+#RS{margin-left:15px;}
+#meni{margin-left: 20%;}
+#meni ul{list-style: none;}
+#meni ul li{display: inline;
+    padding-left: 50px;}
+#lista1 ul {list-style: none;}
+#lista1{float: left;
+    margin-left: 10%;}
+#glavno{display: inline;}
+#lista2{float: right;
+    margin-right: 10%;}
+#zgrada{margin-left: 30px;}
+#lista2 ul {list-style: none;}
+li.list1::before{content: "\1F4D6";}
+li.list2::before{content: "\1F4BB";}
+#footer{clear: both; 
+    font-style:italic;
+     font-size: medium; 
+     margin-left: 29%;}
+a{color: red;}

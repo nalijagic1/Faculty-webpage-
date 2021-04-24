@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8" />
+   <title>Testovi pretrage</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+</head>
+<body>
+    <div id="ispis"></div>
+   <div id="mocha"></div>
+
+<div id="tabela1">
+    <table border="10px">
+       <tr>
+         <th colspan="3">Prva godina</th>
+         
+       </tr>
+       <tr>
+         <th>Naziv predmeta</th>
+         <th>Opis</th>
+         <th>Profesor</th>
+       </tr>
+       <tr class="juric">
+        <td>Matematika u računarstvu 1</td>
+        <td> Cilj kursa je ponuditi studentima najosnovnija znanja iz nekih matematičkih disciplina koje imaju primjene u računarstvu.</td>
+        <td onmouseover=zuto(1) onmouseout=normalno(1)>Razija Turčinhodžić Mulahasanović<br>Željko Jurić</td>
+      </tr>
+      <tr class="anel">
+        <td>Osnove informcionih sistema</td>
+        <td>It i IS</td>
+        <td onmouseover=zuto(2) onmouseout=normalno(2)>Anel Tanović</td onmouseover=zuto(1) onmouseout=normalno(1)>
+      </tr>
+      <tr class="amila">
+        <td> Računarska pismenost</td>
+        <td>Na predavanjima se obrađuju temeljni koncepti iz računarstva i informatike.</td>
+        <td onmouseover=zuto(3) onmouseout=normalno(3) >Amila Akagić</td>
+      </tr>
+      <tr class="buza">
+        <td>Uvod u baze podataka</td>
+        <td>Cilj predmeta je da se steknu znanja o:osnovnim konceptima baza podataka, osnovama SQL jezika, pravilima za definisanje šeme.</td>
+        <td onmouseover=zuto(4) onmouseout=normalno(4) >Emir Buza</td>
+      </tr>
+      <tr class="vedran">
+        <td>Uvod u programiranje</td>
+        <td>Student koji uspješno završi predmet će imati osnovno znanje iz C jezika pomoću kojeg kogu programirati jednostavne programe.</td>
+        <td onmouseover=zuto(5) onmouseout=normalno(5) >Vedran Ljubović</td>
+      </tr>
+      <tr>
+        <td>Matematika u računarstvu 2</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr class="juric">
+        <td>Tehnike programiranja</td>
+        <td>C++ jezik</td>
+        <td onmouseover=zuto(1) onmouseout=normalno(1) > Željko Jurić</tdonmouseover=zuto(1) onmouseout=normalno(1)>
+      </tr>
+      <tr class="vedran">
+        <td>Razvoj softvera</td>
+        <td>JavaFX</td>
+        <td onmouseover=zuto(5) onmouseout=normalno(5)>Vedran Ljubović</td>
+      </tr>
+      <tr>
+        <td>Vjerovatnoća i statistika</td>
+        <td>Kombinatorika</td>
+        <td>...</td>
+      </tr>
+      <tr class="samir">
+        <td>Računarske arhitekture</td>
+        <td>Arhitektura hardvera, operativni sistemi i mreže</td>
+        <td onmouseover=zuto(6) onmouseout=normalno(6) >Samir Ribić</td>
+        </tr>
+        <tr>
+         <th colspan="3">Druga godina</th>
+         
+       </tr>
+       <tr>
+         <th>Naziv predmeta</th>
+         <th>Opis</th>
+         <th>Profesor</th>
+       </tr>
+       <tr class="juric">
+        <td>Algoritmi i strukture podataka</td>
+        <td>Algoritmi</td>
+        <td onmouseover=zuto(1) onmouseout=normalno(1) >Željko Jurić</td>
+      </tr>
+      <tr class="vensada">
+        <td>Web tehnologije</td>
+        <td>HTML, CSS, JavaScript</td>
+        <td onmouseover=zuto(7) onmouseout=normalno(7) >Vensada Okanović</td>
+      </tr>
+      <tr class="dzenana">
+        <td> Verifikacija i validacija softvera</td>
+        <td>Softver</td>
+        <td onmouseover=zuto(8) onmouseout=normalno(8) >Dženana Đonko</td>
+      </tr>
+      <tr class="samir"> 
+        <td>Programski jezici i prevodioci</td>
+        <td>PJP</td>
+        <td onmouseover=zuto(6) onmouseout=normalno(6) >Samir Ribić</td>
+      </tr>
+      <tr class="dusanka">
+        <td>Interakcija čovjek-računar</td>
+        <td>Interakcija</td>
+        <td onmouseover=zuto(9) onmouseout=normalno(9)>Dušanka Bošković</td>
+      </tr>
+      <tr class="ingmar">
+        <td>Skladišta podataka</td>
+        <td>Pohrana podataka</td>
+        <td onmouseover=zuto(10) onmouseout=normalno(10)>Ingmar Besić</td>
+      </tr>
+      <tr class="vensada">
+        <td>Razvoj mobilnih aplikacija</td>
+        <td>Android studio</td>
+        <td onmouseover=zuto(7) onmouseout=normalno(7)>Vensada Okanović</td>
+      </tr>
+      <tr class="vedran">
+        <td>Napredni razvoj softvera</td>
+        <td>Razvoj softvera</td>
+        <td onmouseover=zuto(5) onmouseout=normalno(5)>Vedran Ljubović</td>
+      </tr>
+      <tr>
+        <td>Završni rad-praksa</td>
+        <td>Praksa u jednoj od IT firmi</td>
+        <td>...</td>
+      </tr>
+    </table>
+    </div>
+    
+ 
+   <script src="https://unpkg.com/chai/chai.js"></script>
+   <script src="https://unpkg.com/mocha/mocha.js"></script>
+ 
+   <script class="mocha-init">
+     mocha.setup('bdd');
+     mocha.checkLeaks();
+   </script>
+   <script src="godine.js"></script>
+   <script src="pretraga.js"></script>
+   <script src="pretragaTestovi.js"></script>
+   <script class="mocha-exec">
+     mocha.run();
+   </script>
+   </body>
+   </html>
+   

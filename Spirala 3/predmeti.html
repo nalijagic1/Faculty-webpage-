@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Predmeti</TITLE>
+<link rel="stylesheet" type="text/css" href="predmeti.css">
+<script src="skripta.js"></script>
+<meta charset="UTF-8">
+</HEAD>
+<body>
+    <div id="baner">
+      <img src="etf_logo_720.png" alt="ETF logo" width="100" height="100">
+      <div id="RS">
+        <h1>Razvoj Softvera</h1>
+      </div>
+    </div>
+  <div id="meni">
+    <ul>
+      <li><a href="pocetna.html">Početna stranica</a></li>
+      <li><a href="kontakt.html">Kontakti</a></li>
+      <li><a href="godine.html">Godine</a></li>
+      <li><a href="osoblje.html">Osoblje</a></li>
+      <li><a href="laboratorije.html">Laboratorije</a></li>
+      <li><a href="predmeti.html">Predmeti</a></li>
+  </ul>
+  </div>
+  <div id="dugme">
+  <button type="button" onclick=Sort()>Sortiraj abecedono</button>
+  <button type="button" onclick=godine(1)>Prva godina</button>
+  <button type="button"onclick=godine(2) > Druga godina</button>
+  <button type="button" onclick=godine(3)>Svi predmeti</button>
+  </div>
+  <div class="predmeti">
+    <div class="predmet">
+          <div>Naziv</div>
+          <div>Opis</div>
+          <div>Lista tema</div>
+          <div> Broj predavanja</div>
+          <div>Broj vježbi/tutorijala</div>
+          <div>Profesori</div>
+          <div>Asistenti</div>
+    </div>
+    <div class="predmet"id="MUR1">
+        <div   class="G1">Matematika u računarstvu</div>
+              <div class="G1" >Cilj kursa je ponuditi studentima najosnovnija znanja iz nekih matematičkih disciplina koje imaju primjene u računarstvu.</div class="G1">
+              <div class="G1" ><ul>
+                  <li>Elementi logike iskaza i iskazne algebre</li>
+                    <li>Elementi teorije skupova</li>
+                    <li>Booleova algebra i srodne teme</li>
+                    <li>Elementi predikatske logike</li>
+                    <li>...</li>
+              </ul>
+              </div >
+              <div class="G1">52</div >
+              <div class="G1" >28</div >
+              <div class="G1">Željko Jurić<br> Razija Turčinhodžić</div>
+              <div class="G1">Hana Bezdrob</div>
+            </div>
+            <div class="predmet"id="FWT">
+            <div  class="G1">Frontend Web Tehnologije</div>
+            <div class="G1">Cilj ovog predmeta je naučiti studente kako kreirati web stranicu koja će biti primamljiva i zanimljiva korisnicima.</div>
+            <div class="G1"><ul>
+                 <li>HTML</li>
+                <li>CSS</li>
+                <li>UI i UX dizajn</li>
+                <li>Responzivni Web Dizajn</li>
+                <li>JavaScript</li>
+                <li>...</li>
+              </ul>
+            </div>
+              <div class="G1">40</div>
+              <div class="G1">20</div>
+              <div class="G1">Vensada Okanović</div>
+              <div class="G1"> Irfan Prazina </div> </div>
+              <div class="predmet"id="RP" >
+              <div  class="G1">Računarska Pismenost</div>
+            <div class="G1">Na predavanjima se obrađuju temeljni koncepti iz računarstva i informatike. Lica se upoznaju sa različitim komponentama računara, različitim sistemima i njihovim međusobnim povezivanjem, kao i strategijama rješavanja problema.
+                    </div>
+            <div class="G1"><ul>
+                 <li>Trenutni tehnološki trendovi kod nas i u svijetu</li>
+                <li>Razumjevanje osnovnih računarskih komponenti</li>
+                <li>Korištenje interneta</li>
+                <li>Aplikativni softver</li>
+                <li>Sistemski sofver</li>
+                <li>...</li>
+              </ul>
+            </div>
+              <div class="G1">40</div>
+              <div class="G1">10</div>
+              <div class="G1">Amila Akagić</div>
+              <div class="G1"> Edvin Teskeredži</div> </div>
+              <div class="predmet"id="RMA">
+              <div  class="G2"> Razvoj Mobilnih Aplikacija</div>
+              <div class="G2">Predmet se provodi kroz teorijska predavanja na kojima se prezentiraju
+                      koncepti razvoja mobilnih aplikacija. 
+                      </div>
+              <div class="G2"><ul>
+                   <li>Uvod</li>
+                  <li>Principi razvoja mobilnih aplikacija</li>
+                  <li>Mobilni korisnički interface</li>
+                  <li>Komunikacija</li>
+                  <li>Integracija sa mobilnim hardverom</li>
+                  <li>Problemi u razvoju mobilnih aplikacija</li>
+                </ul>
+              </div>
+                <div class="G2">35</div>
+                <div class="G2">15</div>
+                <div class="G2">Vensada Okanović</div>
+                <div class="G2"> Irfan Prazina </div> </div>
+                <div class="predmet"id="UUP">
+                <div   class="G1">Uvod u Programiranje</div>
+              <div class="G1">Na predavanjima se obrađuju temeljni koncepti iz računarstva i informatike.
+                    Lica koja upišu predmet se upoznaju sa različitim komponentama računara,
+                    različitim brojnim sistemima i njihovim međusobnim konverzijama, kao i
+                    strategijama rješavanja problema. 
+                      </div>
+              <div class="G1"><ul>
+                   <li>Uvod</li>
+                  <li>Programski jezik C</li>
+                  <li>Kontrolne strukture, operatori, nizovi, pokazivači, deklaracija i inicijalizacija pokazivača, stringovi.</li>
+                  <li>Funkcije</li>
+                  <li>Strukture, nizovi struktura, pristup elementima strukture, operacije nad strukturama</li>
+                  <li>Datoteke, rad sa datotekama, modularnost programa, biblioteke funkcija, dinamičko zazimanje memorije</li>
+                </ul>
+              </div>
+                <div class="G1">44</div >
+                <div class="G1">26</div>
+                <div class="G1">Vedran Ljubović</div>
+                <div class="G1"> Mirza Mesihović </div></div>
+                <div class="predmet"id="UBP">
+                <div  class="G1">Uvod u Baze Podataka</div>
+              <div class="G1">Predmet se provodi kroz teorijska predavanja na kojima se prezentiraju bazni
+                    koncepti rada sa sistemima baza podataka. 
+                      </div>
+              <div class="G1"><ul>
+                   <li>Uvod u baze podataka</li>
+                  <li>Relacijski model podataka</li>
+                  <li>Relacijski upitni jezik</li>
+                  <li>Poboljšano pretraživanje podataka</li>
+                  <li>Integritet podataka</li>
+                  <li>...</li>
+                </ul>
+              </div>
+                <div class="G1">40</div>
+                <div class="G1">20</div>
+                <div CLASS="G1">Emir Buza</div>
+                <div CLASS="G1"> Emir Cogo </div></div>
+                <div class="predmet"id="NRS">
+                <div   class="G2" >Napredni Razvoj Softvera</div>
+                <div class="G2">Predmet se provodi kroz teorijska predavanja na kojima se prezentiraju
+                        koncepti razvoja softvera.                         
+                        </div>
+                <div class="G2"><ul>
+                     <li>Osnovni principi softverskog inženjerstva</li>
+                    <li>Radno okruženje za razvoj softvera</li>
+                    <li>Sistemi za kontrolu izvornog koda</li>
+                    <li>Upravljanje softverskim projektima</li>
+                    <li>Neprekidna integracija (CI)</li>
+                    <li>...</li>
+                  </ul>
+      
+                </div>
+                  <div class="G2">25</div>
+                  <div class="G2">25</div>
+                  <div class="G2">Vedran Ljubović</div>
+                  <div class="G2"> Mirza Mesihović</div></div>
+  </div>
+  
+  <div id="footer">
+    <p>Elektrotehnički fakultet Univerziteta u Sarajevu - Razvoj softvera - <a href="http://www.etf.unsa.ba/">Web stranica fakulteta</a></p>
+     
+  </div> 
+</BODY>
+</HTML>

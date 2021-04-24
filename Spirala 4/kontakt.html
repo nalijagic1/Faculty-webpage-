@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Kontkti</TITLE>
+<link rel="stylesheet" type="text/css" href="kontakt.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</HEAD>
+<BODY>
+    <div id="baner">
+      <img src="etf_logo_720.png" alt="ETF logo" width="100" height="100">
+      <div id="RS">
+        <h1>Razvoj Softvera</h1>
+      </div>
+    </div>
+  <div id="meni">
+    <ul>
+      <li><a href="pocetna.html">Početna stranica</a></li>
+      <li><a href="kontakt.html">Kontakti</a></li>
+      <li><a href="godine.html">Godine</a></li>
+      <li><a href="osoblje.html">Osoblje</a></li>
+      <li><a href="laboratorije.html">Laboratorije</a></li>
+      <li><a href="predmeti.html">Predmeti</a></li>
+  </ul>
+  </div>
+  <div id="forma">
+  <form>
+    <div class="form-group row" >
+      <div class="col-md-1"></div>
+        <label for="naziv" class="col-form-label col-md-3">Ime i prezime:</label>
+        <div class="col-md-6">
+            <input type="text" name ="naziv" class="form-control form-control-sm" id="naziv" value="Vase ime">
+        </div>
+        <div class="col-md-2"></div>
+        </div>
+        <div class="form-group row" >
+          <div class="col-md-1"></div>
+        <label for="mail" class="col-form-label col-md-3" >E-Mail:</label>
+        <div class="col-md-6">
+            <input type="email" class="form-control form-control-sm" name ="mail" id="mail" value="email@etf.unsa.ba">
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-1"></div>
+        <label for="Predmet" class="col-form-label col-md-3">Predmet:</label>
+        <div class="col-md-6">
+             <select id = "Predmet" class="form-control form-control-sm">
+               <option value = "Upit">Upit</option>
+               <option value = "Komentar">Komentar</option>
+               <option value = "Zahtjev">Zahtjev</option>
+               <option value = "Ostalo">Ostalo</option>
+             </select>
+        </div> 
+        <div class="col-md-2"></div>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-1"></div>
+        <label class="col-form-label col-md-3 pt-0">Polaznik:</label>
+          <div class="col-md-3">
+            <div class="form-check">
+            <input type="radio" name="polaznikd" value="Yes" id="Da" class="form-check-input" style="margin-left:10px ;"> 
+            <label  class="form-check-label" for="Da" style="margin-left: 25px;">Da</label>
+</div>
+</div>
+<div class="col-md-3">
+  <div class="form-check">
+             <input type="radio" name="polaznikn" value="No" id="Ne" class="form-check-input" style="margin-left: 10px;">
+             <label class="form-check-label" for="Ne" style="margin-left: 25px;"> Ne</label>
+        </div></div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-1"></div>
+          <label for="text" class="col-form-label col-md-3" >Tekst:</label>
+          <div class="col-md-6">
+        <textarea id="text" rows="4" cols="50" name="comment" form="usrform" class="form-control form-control-sm"> Unesite vaš komentar …</textarea>
+        </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-md-1"></div>
+        <label for="dod" class="col-form-label col-md-3" >Dodatak:</label>
+          <div class="col-md-6">
+             <input type="file" name="dodatak" id="dod" class="form-control-file form-control-sm">
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+      <input type="submit" name="Posalji" value="Pošalji" class="btn btn-primary">
+    </div>
+      <div class="col-md-1"></div>
+        </div >
+         </form>
+        </div>
+        <br>
+        <br>
+         <div id="footer">
+                <p>Elektrotehnički fakultet Univerziteta u Sarajevu - Razvoj softvera - <a href="http://www.etf.unsa.ba/">Web stranica fakulteta</a></p>
+                 
+              </div> 
+</BODY>
+</HTML>
+
+    

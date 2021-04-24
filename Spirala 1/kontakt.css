@@ -1,0 +1,55 @@
+form{background-color: rgb(0, 0, 204,0.4);
+    width: 450px; 
+    height: 250px;
+    padding:10px;
+    margin-left:430px;}
+body{background-image: url("development-banner.jpg");
+    color: white;}
+#baner{display: inline-flex;
+    align-content: center; 
+    margin-left: 35%;} 
+#RS{margin-left:15px;}
+#meni{margin-left: 30%;}
+#meni ul{list-style: none;}
+#meni ul li{display: inline;
+    padding-left: 50px;}
+#footer{clear: both; 
+    font-style:italic; 
+    margin-left: 29%;}
+input[type=text]{
+   margin-left: 
+   30px;margin-bottom: 10px;
+   color: grey;
+}
+input[type=email]{
+    margin-left: 73px;
+    margin-bottom: 10px;
+    color: grey;
+ }
+select{width:100px;
+        margin-left: 65px;
+        margin-bottom: 10px;
+        color: grey;}
+input[type=radio]{
+            margin-left: 65px;
+            margin-bottom: 10px;
+         }
+textarea{width: 300px;
+    height: 25px;
+    resize: none;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    color: grey;
+}
+input[type=file]{
+    margin-left: 65px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+ input[type=submit]{
+   margin-top: 10px ;
+   margin-bottom: 10px;
+    width: 100%;
+ }
+ 
+a{color: red;}
